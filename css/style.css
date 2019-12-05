@@ -223,3 +223,56 @@ header{
     height:425px;
     margin: 20px 5px 0 0 ;  
   }
+
+
+  /* ========================User sites===============================*/
+.user-sites{
+  height:1145px;
+    width: 960px;
+    margin:0 auto;
+    background-color:#f2f2f2;
+    border-top:1pt solid black;
+}
+
+
+.user-sites__header{
+    margin:60px 0 40px 0;
+    text-align:right;
+}
+
+.user-sites__header h2{
+    margin:10px 0 40px 0;
+    font-size:25pt;
+}
+
+.user-sites__header h3{
+    font-weight:medium;
+}
+
+/* ---------------------------Setka saitesov------------------------ */
+
+
+.user-sites__contaier{
+    height:1145px;
+    width:960px;   
+}
+
+.user-sites__container_row{
+    height: 188px;
+    padding: 0 14px;   
+}
+
+.user-sites__container_img{
+    width:300px;
+    height:158px;
+    margin:10px 4px 20px 4px;
+    display: inline-block;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(224,224,224,0.52);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(224,224,224,0.52);
+    box-shadow: 5px 5px 5px 0px rgba(224,224,224,0.52);
+}
+
+
+
+
+
