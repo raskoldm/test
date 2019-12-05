@@ -21,13 +21,15 @@ body,html{
 
 
 
-/*----------header----------*/
+/*======================header=========================*/
 
 header{
     
     height: 121px;
     
 }
+
+/* =====================menu-top===================== */
 
 .menu-top{
     
@@ -44,7 +46,7 @@ header{
 
 
 .menu-top__list ul{
-    margin-top:6px;
+    margin-top:5px;
     height:27px;
     display: inline-block;
     
@@ -54,7 +56,9 @@ header{
 .menu-top__list li{
     display: inline-block;
     color:white;
+    padding-top: 4px;
 }
+
 
 .menu-top__list_left {
     border-right: 1px solid #b2b2b2;
@@ -68,6 +72,7 @@ header{
     background-color:orange;
     display: inline-block;
     text-align: left;
+    padding-left:15px;
     margin-left: 10px 0 0 0;
 }
 
@@ -93,8 +98,10 @@ header{
 
 .menu-top__list_right li{
     margin-right:25px;
+    
 }
 
+/*=================== Menu bottom====================== */
 
 .menu-bottom{
     width: 100%;
@@ -109,13 +116,14 @@ header{
     width: 960px;
     margin:0 auto;
     height: 80px;
-    
+  
 }
 
 .menu-bottom__container_list{
     width:750px;
     margin-left:60px;
-    clear: both;
+    float: left;
+    clear: right;
 }
 
 .menu-bottom__container_list li{
@@ -123,9 +131,9 @@ header{
     width: 120px;
     height: 40px;
     line-height: 40px;
-    margin-top: 28px;
-    font-size: 12pt;
-    font-weight: 500;
+    margin-top: 28px; 
+    font-size: 16pt;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -136,11 +144,12 @@ header{
 
 
   .logo{
-    width: 122px;
-    height: 70px;
-    clear: both;
+    float: right;  
+    margin: 10px 0 0 0;
   }
 
+
+  /*======================== Main banner section======================= */
 
   .main-banner{
     height: 495px;
@@ -150,15 +159,67 @@ header{
     margin-top:52px;
   }
 
-  .main-banner__left{
-      width:300px;
-      height: 100%;
-      margin-left:5px;
-  }
+  
+  /* =======================Main banner left ========================== */
 
-  .main-banner__left h1{
-    font-size:30px;
+  
+  .main-banner__left{
+    width:300px;
+    height: 100%;
+    margin-left:5px;
+    float: left;
+}
+
+  
+.main-banner__left h1{
+    clear: right;
+    font-size:40px;
+    font-weight: medium;
     color:#68ae00;
     text-align: right;
-    font-family: 'Bebas Neue';
+ }
+
+
+.main-banner__left p {
+    text-align: right;
+}
+
+
+
+
+.main-banner__left h3{
+    margin: 30px 0 50px 0;
+    text-align: right;
+}
+
+.main-banner__left h2{
+    color:white;
+    background-color: orange;
+    text-align: center;
+    width:215px;
+    line-height: 52px;
+    height: 52px;
+    margin: 20px auto;
+}
+
+.main-banner__left_p-orange{
+    width: 215px;
+    margin:40px auto;
+    text-align: left;
+    font-weight: bold;
+    color: orange;
+}
+  /* ======================Main banner right ======================== */
+
+  .main-banner-right{
+    width:630px;
+    height: 400px;
+    float:right;
+  }
+
+  .main-banner-right__img{
+    float: right;
+    width:600px;
+    height:425px;
+    margin: 20px 5px 0 0 ;  
   }
