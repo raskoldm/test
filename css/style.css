@@ -339,7 +339,7 @@ header{
     font-weight:bold;
 }
 
-.footer-top__li-orange{
+.footer-top__list i{
     color:orange;
 }
 
@@ -363,6 +363,13 @@ header{
 .footer-dark__list ul{
     display: inline-block;
     margin-right:90px;
+    
+}
+
+.footer-dark__list_search_green{
+    font-size:16pt;
+    font-weight:bold;
+    color:#68ae00;
 }
 
 .footer-dark__list ul li{
@@ -372,11 +379,7 @@ header{
     color:white;
 }
 
-.footer-dark__list_green{
-    font-size:16pt;
-    font-weight:bold;
-    color:#68ae00;
-}
+
 
 .footer-dark__list_search_icon-list{
     
@@ -385,6 +388,14 @@ header{
 
 .footer-dark__list_search_icon-list li{
     display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.footer-dark__list_search_icon-list li img{
+    
+    
 }
 
 /* footer-green */
