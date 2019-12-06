@@ -8,16 +8,23 @@ body,html{
     height: 100%;
     font-family: 'Roboto', sans-serif;
     background-color:#ebebeb;
+    direction: ltr;
+    list-style-type:none;
 };
 
-.wrapper{
+a {
+    text-decoration: none;
+    color:white;
+}
+
+/* .wrapper{
        
 }
 
 
 .content{
    
-}
+} */
 
 
 
@@ -122,6 +129,7 @@ header{
 .menu-bottom__container_list{
     width:750px;
     margin-left:60px;
+    margin-top: 28px; 
     float: left;
     clear: right;
 }
@@ -131,7 +139,7 @@ header{
     width: 120px;
     height: 40px;
     line-height: 40px;
-    margin-top: 28px; 
+    
     font-size: 16pt;
     font-weight: bold;
     text-align: center;
@@ -155,7 +163,6 @@ header{
     height: 495px;
     width: 960px;
     margin:0 auto;
-    background-color:#f2f2f2;
     margin-top:52px;
   }
 
@@ -230,13 +237,11 @@ header{
   height:1192px;
     width: 960px;
     margin:0 auto;
-    background-color:#f2f2f2;
-    border-top:1pt solid black;
 }
 
 
 .user-sites__header{
-    margin:60px 0 40px 0;
+    margin:60px 14px 30px 0;
     text-align:right;
 }
 
@@ -246,7 +251,7 @@ header{
 }
 
 .user-sites__header h3{
-    font-weight:medium;
+    font-weight:lighter;
 }
 
 /* ---------------------------Setka saitesov------------------------ */
@@ -282,40 +287,116 @@ header{
     background-color:#404040;
 }
 
-.footer-contaoner{
-    width: 960px;
-    margin:0 auto;    
-}
 
 .footer-top{
     height: 450px;
-    background-image: url("https://sportingclass.com/wp-content/uploads/2014/11/Portrait-of-four-smiling-young-business-people-using-laptop-together-at-office-desk-1024x683.jpg");
+    background-image: url("../img/footer-image.jpg");
     background-size: cover;
 }
 
+.footer-top__content-container{
+    width: 960px;
+    margin:0 auto; 
+    text-align: center;  
+}
+
 .footer-top__head{
-    padding-top:40px;
+    padding-top:70px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 
 .footer-top__head h2{
     color:#68ae00;
-    font-size: 30pt;
+    font-size: 25pt;
     margin:10px 0 20px 0;
 }
 
-.footer-top__list{
- 
+.footer-top__list ul{
+    display: inline-block;
+    margin:0 60px 0 30px;
 }
 
 .footer-top__list li{
+    list-style-type:none;
+    text-align: center;
+}
+
+.footer-top__list_green{
    display: inline-block; 
    text-align: center;
    color:#68ae00;
    margin-top:30px;
    margin-right:100px;
-   font-size: 50pt;
+   font-size: 46pt;
+   width: 55px;
+   margin: auto;
+}
+
+.footer-top__list_bold{
+    font-size: 14pt;
+    font-weight:bold;
+}
+
+.footer-top__li-orange{
+    color:orange;
+}
+
+
+/* footer-dark */
+
+.footer-dark{
+    height: 394px;
+    background-color: #43464a;
+}
+
+.footer-dark__content-container{
+    width: 960px;
+    margin:0 auto;    
+}
+
+.footer-dark__list{
+    padding-top: 90px;
+}
+
+.footer-dark__list ul{
+    display: inline-block;
+    margin-right:90px;
+}
+
+.footer-dark__list ul li{
+    text-align: right;
+    list-style: none;
+    font-size: 12pt;
+    color:white;
+}
+
+.footer-dark__list_green{
+    font-size:16pt;
+    font-weight:bold;
+    color:#68ae00;
+}
+
+.footer-dark__list_search_icon-list{
+    
+}
+
+
+.footer-dark__list_search_icon-list li{
+    display: inline-block;
+}
+
+/* footer-green */
+
+.footer-green{
+    height: 100px;
+    background-color: #68ae00;
+}
+
+.footer-white{
+    height: 296px;
+    background-color:white;
 }
 
 
