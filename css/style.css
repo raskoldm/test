@@ -17,6 +17,10 @@ a {
     color:white;
 }
 
+input, button { 
+    border:none;
+ } 
+
 /* .wrapper{
        
 }
@@ -47,7 +51,7 @@ header{
 }
 
 .menu-top__list{
-    width: 960px;
+    max-width: 960px;
     margin:0 auto;  
 }
 
@@ -215,6 +219,7 @@ header{
     text-align: left;
     font-weight: bold;
     color: orange;
+    direction: ltr;
 }
   /* ======================Main banner right ======================== */
 
@@ -246,12 +251,14 @@ header{
 }
 
 .user-sites__header h2{
-    margin:10px 0 40px 0;
-    font-size:25pt;
+    margin:10px 0 30px 0;
+    font-size:24pt;
 }
+
 
 .user-sites__header h3{
     font-weight:lighter;
+    font-size:12pt;
 }
 
 /* ---------------------------Setka saitesov------------------------ */
@@ -291,7 +298,8 @@ header{
 .footer-top{
     height: 450px;
     background-image: url("../img/footer-image.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .footer-top__content-container{
@@ -315,12 +323,14 @@ header{
 
 .footer-top__list ul{
     display: inline-block;
-    margin:0 60px 0 30px;
+    
 }
+
 
 .footer-top__list li{
     list-style-type:none;
     text-align: center;
+    width:300px;
 }
 
 .footer-top__list_green{
@@ -339,8 +349,9 @@ header{
     font-weight:bold;
 }
 
-.footer-top__list i{
+.footer-top__li-orange i{
     color:orange;
+    margin-right: 5px;
 }
 
 
@@ -353,36 +364,67 @@ header{
 
 .footer-dark__content-container{
     width: 960px;
-    margin:0 auto;    
+    margin:0 auto;   
 }
 
 .footer-dark__list{
+    
     padding-top: 90px;
 }
 
 .footer-dark__list ul{
     display: inline-block;
+    margin-top: 0px;
     margin-right:90px;
     
 }
 
-.footer-dark__list_search_green{
+
+.footer-dark__list ul li{
+    text-align: right;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-dark__list_search_green li{
     font-size:16pt;
     font-weight:bold;
     color:#68ae00;
 }
 
-.footer-dark__list ul li{
-    text-align: right;
-    list-style: none;
+.footer-dark__list_left{
     font-size: 12pt;
     color:white;
+}
+
+.footer-dark__list_middle{
+    font-size: 12pt;
+    color:white;
+}
+
+.footer-dark__list_right{
+    font-size: 12pt;
+    color:white;
+}
+
+.footer-dark__list_search{
+    font-size: 12pt;
+    color:white;
+}
+
+.footer-dark__list_search ul{
+    margin:0;
 }
 
 
 
 .footer-dark__list_search_icon-list{
+    display: inline-block;
     
+}
+
+.footer-dark__list_search_icon-list :last-child{
+    margin-right:0;
 }
 
 
@@ -393,10 +435,34 @@ header{
     margin-right: 20px;
 }
 
-.footer-dark__list_search_icon-list li img{
-    
-    
+
+
+.footer-dark__list_input-container{
+    width: 339px;
+    height:40px;
+    background-color: #ebebeb;
 }
+
+.footer-dark__list_input-container-button{
+    width: 75px;
+    height:40px;
+    background-color:#68ae00;
+    color: #ebebeb;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+.footer-dark__list_input-container-input{
+    width: 260px;
+    height:39px;
+    background-color:#ebebeb;
+    text-align: right;
+    color: #43464a;
+    font-size:12pt;
+}
+
+
 
 /* footer-green */
 
@@ -427,17 +493,40 @@ header{
 .footer-white__content-container{
     width: 960px;
     margin:0 auto; 
+    
 }
 
 .footer-white__img-list{
-    padding-top:30px;
+    
     margin-bottom:50px;
+    padding: 30px 50px 0 50px;
+    
 }
 
 .footer-white__img-list li{
     display: inline-block;
+    
 }
 
+.pay{
+    margin-right:60px;
+}
+
+.rapid-ssl{
+    margin-right:30px;
+}
+
+.psi{
+    margin-right:58px;
+}
+
+
+.footer-white__content-continer_copyright{
+    font-size:10pt;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
 
 
 
