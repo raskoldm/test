@@ -1,12 +1,78 @@
-
-
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .menu-top{
     
-        width: 100%;
-        height:40px;
+    header{
+        height: 76px;
+        width: 320px;
+    }
+    
+    .mobile-container{
+        width:100%;
+        height: 76px;
+        background-color:white;
+    }
+    
+    .menu-top{
         background-color:#ff0000;
-        
+        display: none;    
     }
 
+    .menu-bottom{
+        display: none;
+    }
+
+    .main-banner{
+        margin-top: 0;
+        max-width: 320px;
+        height: 316px;
+    }
+
+    .main-banner__mobile{
+        width:100%;
+        height: 316px;
+        background-color:rgb(179, 179, 179);
+        background-image: url(../img/mobile/main-banner-mobile-img.jpg);
+    }
+    
+    .main-banner__left{
+        display: none;
+    }
+
+    .main-banner-right{
+        display: none;
+    }
+
+    .user-sites{
+        height:1975px;
+    }
+
+    .footer-top{
+        display: none;
+    }
+
+    
+    .footer-green{
+        height:113px;
+    }
+
+    .footer-green__number{
+        height:113px;
+    }
+    
+    .footer-dark{
+        display:none;
+    }
+
+    .footer-white{
+        height:335px;
+    }
+
+    .footer-white__img-list{
+        margin-bottom:0;
+    }
+
+    
+
+
 }
+
+

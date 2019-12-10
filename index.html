@@ -5,6 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="css/mobile.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" media="screen and (min-device-width : 320px)" href="css/mobile.css" type="text/css" charset="utf-8"/>
     <link rel="stylesheet" href="css/fonts.css" type="text/css" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
             <header>
                 <div class="mobile-container">
                     burger
-                    img
+                    <img class="mobile-container__logo" src="./img/logo.png" alt="">
                 </div>
 
                 <div class="menu-top">
@@ -68,7 +69,7 @@
 
             <section class="main-banner">
                 <div class="main-banner__mobile">
-                    
+
                 </div>
 
                 <div class="main-banner__left">
@@ -257,6 +258,13 @@
                     </div>
 
                     <div class="footer-dark">
+                        <div class="footer-dark__mobile">
+                                <div class="footer-dark__content-container">
+                                        
+                                </div>
+                        </div>
+
+                        <div class="footer-dark__desktop">
                         <div class="footer-dark__content-container">
                             <ul class="footer-dark__list">
                                 <ul class="footer-dark__list_left">
@@ -318,6 +326,7 @@
                                     <li><a >שירות לקוחו</a></li> 
                                 </ul>
                             </ul>
+                        </div>
                         </div>    
                     </div>
 
@@ -327,13 +336,25 @@
 
                     <div class="footer-white">
                         <div class="footer-white__content-container">
-                            
-                                <ul class="footer-white__img-list">
-                                    <li class="pay"><a ><img src="./img/footer/pay.png" alt=""></a></li>
-                                    <li class="rapid-ssl"><a ><img src="./img/footer/rapid-ssl.png" alt=""></a></li>
-                                    <li class="psi"><a ><img src="./img/footer/psi.png" alt=""></a></li>
-                                    <li class="registrars"><a ><img src="./img/footer/registrars.png" alt=""></a></li>
-                                </ul>
+                                <div class="footer-white__container-desktop">
+                                    <ul class="footer-white__img-list">
+                                        <li class="pay"><a ><img src="./img/footer/pay.png" alt=""></a></li>
+                                        <li class="rapid-ssl"><a ><img src="./img/footer/rapid-ssl.png" alt=""></a></li>
+                                        <li class="psi"><a ><img src="./img/footer/psi.png" alt=""></a></li>
+                                        <li class="registrars"><a ><img src="./img/footer/registrars.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="footer-white__container-mobile">
+                                    <ul class="footer-white__img-list">
+                                        <li class="rapid-ssl"><a ><img src="./img/footer/rapid-ssl.png" alt=""></a></li>
+                                        <li class="psi"><a ><img src="./img/footer/psi.png" alt=""></a></li>
+                                        <li class="registrars"><a ><img src="./img/footer/registrars.png" alt=""></a></li>
+                                        <li class="pay"><a ><img src="./img/footer/pay.png" alt=""></a></li>
+                                    </ul>
+                                </div>
+
+
                             
                             <p class="footer-white__content-continer_copyright">© כל הזכויות שמורות 2015</p>
                         </div>
