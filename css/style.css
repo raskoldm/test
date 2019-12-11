@@ -26,16 +26,17 @@ input, button {
     background-color:black;
 }
 
- /*  
+ 
  .wrapper{
-
+    min-width: 960px;
+    
 }
 
-.content{
-   
-} 
-*/
+/* .content{
 
+}  
+
+ */
 
 /*======================header=========================*/
 
@@ -127,6 +128,10 @@ header{
     
 }
 
+.menu-top__list_right i{
+    margin-left:5px;
+}
+
 /*===================Menu bottom====================== */
 
 .menu-bottom{
@@ -164,6 +169,16 @@ header{
     text-align: center;
 }
 
+.menu-bottom__container_list li:hover {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+}
 
 
 .menu-bottom__container_list li a:hover {
@@ -642,16 +657,15 @@ header{
 /* ---------------------------------------------Media----------------------------------------------- */
 
 
- @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ @media only screen and (min-device-width : 320px) and (max-device-width : 720px) {
 
-    /* .wrapper{
-        padding-left:10px;
-        padding-right:10px;
-    } */
+    .wrapper{
+        min-width: 720px;
+    }
     
     header{
         height: 76px;
-        width: 320px;
+        width: 100%;
     }
     
     .mobile-container{
@@ -690,16 +704,23 @@ header{
         background-image: url(../img/mobile/main-banner-mobile-img.jpg);
     }
 
+    .user-sites__header{
+        margin: 0 auto;   
+    }
+
 
     .user-sites__container_img{
         width:280px;
+        display: block;
+        margin: 0 auto;
     }
 
     .user-sites__container_img img{
         width:280px;
+        
     }
 
-
+    
     
     .main-banner__left{
         display: none;
@@ -711,6 +732,19 @@ header{
 
     .user-sites{
         height:1975px;
+    }
+
+    .user-sites__header{
+        width:320px;
+        margin-left:20px;
+    }
+
+    .user-sites__header h2{
+        width:280px;
+    }
+
+    .user-sites__header h3{
+        width:280px;
     }
 
     .footer-top{
@@ -729,7 +763,7 @@ header{
 
     .footer-green__mobile-container{
         display: block;
-        width: 320px;
+        
         height:500px;
         
     }
@@ -767,9 +801,9 @@ header{
     .footer-dark__mobile{
         display:block;
         height:393px;
-        width: 280px ;
+        
         background-color:#43464a;
-        padding:0 20px;
+        /* padding:0 20px; */
     }
 
     .footer-dark__desktop{
@@ -787,7 +821,13 @@ header{
         margin-bottom: 20px;
     }
 
+    .footer-dark__list_search{
+        text-align: center;
+        width:100%;
+    }
+
     .footer-dark__list_input-container{
+        text-align: center;
         width:280px;
         height:60px;
     }
@@ -815,9 +855,11 @@ header{
     .footer-white__container-mobile{
         display: block;
         
+        
     }
 
     .footer-white__img-list{
+        margin:0 auto; 
         margin-bottom:10px;
         width:300px;
         padding: 20px  10px 0 10px;
