@@ -705,7 +705,17 @@ header{
     }
 
     .user-sites__header{
-        margin: 0 auto;   
+        
+        margin: 0 ;   
+    }
+
+    .user-sites__container_row:last-child{
+        display: none;
+    }
+
+
+    .user-sites__container_row{
+        height:470px;
     }
 
 
@@ -720,6 +730,9 @@ header{
         
     }
 
+    .user-sites__container_img-mobilenone{
+        display: none;
+    }
     
     
     .main-banner__left{
@@ -736,7 +749,8 @@ header{
 
     .user-sites__header{
         width:320px;
-        margin-left:20px;
+        margin:auto;
+        margin-bottom: 30px;
     }
 
     .user-sites__header h2{
@@ -827,7 +841,7 @@ header{
     }
 
     .footer-dark__list_input-container{
-        text-align: center;
+        margin: 0 auto;
         width:280px;
         height:60px;
     }
