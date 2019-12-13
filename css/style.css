@@ -78,6 +78,10 @@ header{
     
 }
 
+.menu-top__list i {
+    font-size: 11pt;
+}
+
 .menu-top__list li{
     display: inline-block;
     color:white;
@@ -93,17 +97,17 @@ header{
 
 .menu-top__list_left {
     border-right: 1px solid #b2b2b2;
-    width: 250px;
+    width: 202px;
     
 } 
 
 .menu-top__list_left li{
     width:70px;
-    height:27px;
+    height:25px;
     background-color:orange;
     display: inline-block;
-    text-align: left;
-    padding-left:15px;
+    text-align: center;
+    margin-right:1px;
     margin-left: 10px 0 0 0;
 }
 
@@ -113,9 +117,9 @@ header{
 
 
 .menu-top__list_middle {
-    width:220px;
+    width:178px;
     height:27px;
-    padding-left: 40px;
+    padding-left:40px;
     border-right: 1px solid #b2b2b2;
     display: inline-block;
 }
@@ -123,7 +127,12 @@ header{
 
 .menu-top__list_middle li{
     margin-right:20px;
-    margin-left:23px;
+    
+}
+
+
+.menu-top__list_middle:first-child{
+    margin-left:40px;
 }
 
 
@@ -232,19 +241,21 @@ header{
   
 .main-banner__left h1{
     clear: right;
-    font-size:40px;
+    font-size:50px;
     font-weight: medium;
     color:#68ae00;
     text-align: right;
+    margin-bottom: 10px;
  }
 
 
 .main-banner__left p {
     text-align: right;
+    font-size: 14pt;
 }
 
 .main-banner__left h3{
-    margin: 30px 0 50px 0;
+    margin: 10px 0 53px 0;
     text-align: right;
 }
 
@@ -284,6 +295,9 @@ header{
 
 .main-banner__left_p-orange a i{
     float: left;
+    font-size: 20px;
+    margin-top:3px;
+    margin-left:46px
 }
     
   /* ======================Main banner right ======================== */
@@ -305,20 +319,20 @@ header{
 
   /* ========================User sites===============================*/
 .user-sites{
-  height:1192px;
+  height:1115px;
     max-width: 960px;
     margin:0 auto;
 }
 
 
 .user-sites__header{
-    margin:60px 14px 30px 0;
+    margin:50px 14px 50px 0;
     text-align:right;
 }
 
 .user-sites__header h2{
-    margin:10px 0 30px 0;
-    font-size:24pt;
+    margin:15px 0 5px 0;
+    font-size:28pt;
 }
 
 
@@ -333,9 +347,13 @@ header{
     display: block;
 }
 
+.user-sites{
+    height:1137px;
+}
+
 
 .user-sites__contaier{
-    height:1145px;
+    height:1137px;
     max-width:960px;   
 }
 
@@ -402,7 +420,7 @@ header{
 }
 
 .footer-top__head{
-    padding-top:70px;
+    padding-top:50px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -438,7 +456,7 @@ header{
    color:#68ae00;
    margin-top:30px;
    margin-right:100px;
-   font-size: 46pt;
+   font-size: 40pt;
    width: 55px;
    margin: auto;
 }
@@ -461,7 +479,7 @@ header{
 /* footer-dark */
 
 .footer-dark{
-    height: 394px;
+    height: 393px;
     background-color: #43464a;
 }
 
@@ -492,7 +510,7 @@ header{
 }
 
 .footer-dark__list_search_green li{
-    font-size:16pt;
+    font-size:18pt;
     font-weight:bold;
     color:#68ae00;
 }
@@ -504,7 +522,7 @@ header{
 
 .footer-dark__list_left{
     width:145px; 
-    margin-left:10px;
+    
     margin-right:90px;
     font-size: 12pt;
     color:white;
@@ -518,7 +536,8 @@ header{
 }
 
 .footer-dark__list_middle{
-    width:80px; 
+    width:80px;
+    margin-left:50px; 
     margin-right: 90px;
     font-size: 12pt;
     color:white;
@@ -629,7 +648,7 @@ header{
 .footer-green__number{
     display: inline-block;
     width:100%;
-    line-height:100px;
+    line-height:98px;
     text-align: center;
     color: white;
     font-size: 16pt;
