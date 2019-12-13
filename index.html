@@ -14,16 +14,32 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
+    
     <script src="https://kit.fontawesome.com/213b62b4e9.js" crossorigin="anonymous"></script>
 
-    <div class="wrapper">    
+    <div class="wrapper">
+        <!-- <div class="content">     -->
 
             <header>
                 <div class="mobile-container">
-                    burger
-                    <img class="mobile-container__logo" src="./img/logo.png" alt="">
+                    <div class="mibile-conteiner__menu-top">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <img class="mobile-container__logo" src="./img/logo.png" alt="">
+                    </div>
+                       
                 </div>
+
+                <div class="mobile-container__dropdown-links_container">
+                        <ul class="mobile-container__dropdown-links_container_links" id="myLinks">
+                            <li>Heloo</li>
+                            <li>we</li>
+                            <li>are</li>
+                            <li>dropdown</li>
+                            <li>links</li>
+                        </ul>
+                </div> 
 
                 <div class="menu-top">
                     <ul class="menu-top__list">
@@ -173,7 +189,7 @@
                     </div>
 
                     <div class="user-sites__contaier" >
-                            <div class="user-sites__container_last">
+                            <div class="user-sites__container_row">
                                 <div class="user-sites__container_img">
                                     <a >
                                         <span class="user-sites-name"><h3>sample.site</h3></span>
@@ -188,7 +204,7 @@
                                     </a>
                                 </div>
         
-                                <div class="user-sites__container_img" class="user-sites__container_img-mobilenone">
+                                <div class="user-sites__container_img-mobilenone" class="user-sites__container_img" >
                                     <a >
                                         <span class="user-sites-name"><h3>sample.site</h3></span>
                                         <img src="./img/sites/avada.jpg" alt="">
@@ -380,7 +396,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="footer-white__container-mobile">
+                                <!-- <div class="footer-white__container-mobile">
                                     <ul class="footer-white__img-list">
                                         <div class="footer-white__img-list_container-left">
                                             <li class="psi"><a ><img src="./img/footer/psi.png" alt=""></a></li>
@@ -393,7 +409,7 @@
                                             <li class="pay"><a ><img src="./img/footer/pay.png" alt=""></a></li>
                                         </div>
                                     </ul>
-                                </div>
+                                </div> -->
 
 
                             
@@ -402,8 +418,10 @@
                     </div>
                 </div>
             </footer>
-           
+        <!-- </div>     -->
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
