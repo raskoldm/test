@@ -41,6 +41,7 @@
     .mobile-container__dropdown-links_container_links{
         width: 100%;
         background-color:black;
+        z-index: 3;
     }
    
   
@@ -81,6 +82,48 @@
         background-repeat: no-repeat;
         background-size:cover;
     }
+
+    .main-banner__mobile_content-container{
+        margin: 0 auto;
+        max-width: 280px; 
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .main-banner__mobile_content-container_head{
+        padding:23px 0 0 0;
+        text-align: center;
+        font-size: 24pt;
+        color: #fff;
+    }
+
+    .main-banner__mobile_content-container_price{
+        margin: 50px 0 0 0 ;
+        text-align: center;
+        font-size: 18pt;
+        color: rgb(255, 255, 255);
+    }
+
+    .main-banner__mobile_content-container_price_number-span {
+        font-size: 50pt;
+        color: rgb(255, 255, 255);
+    }
+
+    .main-banner__mobile_content-container_price_number-span::before{
+
+    }
+
+
+    .main-banner__mobile_content-container_bottom{
+        margin-top:26px;
+        color:#fff;
+    }
+
+
+    .main-banner__mobile_bottom_content-container_icon{
+        margin-top:12px;
+    }
+    
 
         
     .main-banner__left{
@@ -152,11 +195,13 @@
         width:280px;
     }
 
+    /* -----------------------Footer---------------------------- */
+
     .footer-top{
         display: none;
     }
 
-    /* Footer green */
+    /*---------------------- Footer green------------------ */
     
     .footer-green{
         height:500px;
