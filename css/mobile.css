@@ -15,6 +15,9 @@
         height: 76px;
         background-color:white;
     }
+    .main-banner__mobile{
+        display: block;
+    }
 
     .mobile-container__menu-top{
         width:100%;
@@ -27,7 +30,7 @@
 
     .mobile-container i{
         float:left;
-        font-size: 35pt;
+        font-size: 28pt;
         margin:15px 0 0 20px;
     }
 
@@ -39,23 +42,31 @@
     }
 
     .mobile-container__dropdown-links_container_links{
+        position: relative;
         width: 100%;
-        background-color:black;
+        background-color:white;
         z-index: 3;
+        transition: all 0.5s ease 0s;
     }
    
   
     .mobile-container__dropdown-links_container_links li {
-        font-size:16pt;
-        color:white;
-        margin: 10px;
-        background: black;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background-color: #f2f2f2;
+        font-size: 16pt;
+        font-weight: bold;
+        padding-left: 10px;
         
     }
 
     .mobile-container__dropdown-links_container_links li:hover {
-        font-size:16pt;
-        color:green;
+        background-color: #ffffff ;
+        color:#f97800; 
+        width:100%;
+        height: 40px;
+        padding-left: 10px;
     }
 
   
@@ -67,7 +78,8 @@
         display: none;
     }
 
-    
+    /* ---------------------main-banner-mobile-------------------------- */
+
     .main-banner{
         margin-top: 0;
         width: 100%;
@@ -109,19 +121,19 @@
         color: rgb(255, 255, 255);
     }
 
-    .main-banner__mobile_content-container_price_number-span::before{
+    /* .main-banner__mobile_content-container_price_number-span::before{
 
-    }
+    } */
 
 
     .main-banner__mobile_content-container_bottom{
-        margin-top:26px;
+        margin-top:27px;
         color:#fff;
     }
 
 
     .main-banner__mobile_bottom_content-container_icon{
-        margin-top:12px;
+        margin-top:10px;
     }
     
 
@@ -137,16 +149,22 @@
     /* ------------------User-sites-section-mobile------------------------ */
 
     .user-sites__header{
-        
-        margin: 0 ;   
+        width:280px;
+        margin:auto;
+        margin-bottom: 30px;
     }
 
     .user-sites__header h2{
-        margin-right: 20px;
+        width:280px;
+        margin-top: 40px;
+        font-size:20pt;
+        line-height: 20pt;
     }
 
     .user-sites__header h3{
-        margin-block-end:0;
+        width:280px;
+        line-height: 16pt;
+        font-size:14pt;
     }
 
 
@@ -181,19 +199,6 @@
         height:1975px;
     }
 
-    .user-sites__header{
-        width:320px;
-        margin:auto;
-        margin-bottom: 30px;
-    }
-
-    .user-sites__header h2{
-        width:280px;
-    }
-
-    .user-sites__header h3{
-        width:280px;
-    }
 
     /* -----------------------Footer---------------------------- */
 
@@ -212,10 +217,8 @@
     }
 
     .footer-green__mobile-container{
-        display: block;
-        
-        height:500px;
-        
+        display: block; 
+        height:500px;     
     }
 
     .footer-green__mobile-container_list{
@@ -276,6 +279,22 @@
         width:100%;
     }
 
+    .footer-dark__list_search_icon-list li{
+        display: inline-block;
+        width: 45px;
+        margin-right: 28px;
+    }
+
+    .footer-dark__list_search_icon-list li img{
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+    }
+
+   
+
+ 
+
     .footer-dark__list_input-container{
         margin: 0 auto;
         width:280px;
@@ -283,12 +302,20 @@
     }
 
     .footer-dark__list_input-container-button{
+        width:65px;
+        height:60px;
+        float: right;
+    }
+
+    .mobile-button{
+        width:65px;
         height:60px;
     }
 
     .footer-dark__list_input-container-input{
         width:200px;
         height:60px;
+        float: left;
     }
 
     /* Foooter white */
@@ -345,7 +372,7 @@
     .registrars img{
         width:102px;
         margin-left:30px;
-        float:right;
+        
     }
 
     .psi {
@@ -355,7 +382,7 @@
     .psi img{
         margin-top:20px;
         width:102px;
-        float: left;
+        
     }
 
     .rapid-ssl{
@@ -365,7 +392,7 @@
 
     .rapid-ssl img{
         width:87px;
-        float: left;
+        
     }
 
     .pay {
