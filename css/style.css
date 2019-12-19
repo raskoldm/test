@@ -56,6 +56,10 @@ header{
     display: none;
 } 
 
+.mobile-container__dropdown-links_container{
+    
+}
+
 .menu-top{
     
     width: 100%;
@@ -682,6 +686,18 @@ header{
     position: relative;
     margin-bottom:50px;
     padding: 30px 50px 0 50px;
+    
+}
+
+.footer-white__img-list_container-bottom{
+    
+}
+
+.footer-white__img-list_container-left{
+    
+}
+
+.footer-white__img-list_container-right{
     
 }
 

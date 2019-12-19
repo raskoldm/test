@@ -41,6 +41,8 @@
         margin:15px 20px 0  0; 
     }
 
+   
+
     .mobile-container__dropdown-links_container_links{
         position: relative;
         width: 100%;
@@ -279,22 +281,24 @@
         width:100%;
     }
 
+    .footer-dark__list_search_icon-list :last-child{
+        width: 32px;
+    }
+
     .footer-dark__list_search_icon-list li{
         display: inline-block;
         width: 45px;
         margin-right: 28px;
     }
 
+    
+
     .footer-dark__list_search_icon-list li img{
         display: inline-block;
         width: 45px;
-        height: 45px;
     }
 
    
-
- 
-
     .footer-dark__list_input-container{
         margin: 0 auto;
         width:280px;
@@ -329,7 +333,7 @@
     }
 
     .footer-white__container-mobile{
-        display: block;
+        display: none;
         
         
     }
@@ -365,7 +369,7 @@
     }
 
     .registrars {
-        float:left;
+        
     }
    
     .registrars img{
@@ -375,7 +379,7 @@
     }
 
     .psi {
-        float: left;
+        
     }
 
     .psi img{
@@ -385,7 +389,7 @@
     }
 
     .rapid-ssl{
-        float: left;
+        
     }
 
 
@@ -395,7 +399,7 @@
     }
 
     .pay {
-        float: left;
+        
         margin:0;
     }
 
