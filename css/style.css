@@ -690,15 +690,15 @@ header{
 }
 
 .footer-white__img-list_container-bottom{
-    
+  display: inline-block;   
 }
 
 .footer-white__img-list_container-left{
-    
+    display: inline-block;  
 }
 
 .footer-white__img-list_container-right{
-    
+    display: inline-block;   
 }
 
 .footer-white__img-list:before {

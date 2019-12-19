@@ -18,6 +18,9 @@ window.onload = function(){
 
 }
 
+
+// dropdown
+
 function myFunction() {
     console.log('aaa');
     var x = document.getElementById("myLinks");

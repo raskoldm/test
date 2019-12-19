@@ -87,10 +87,12 @@
                 <div class="main-banner__mobile">
                     <div class="main-banner__mobile_content-container">
                         <h2 class="main-banner__mobile_content-container_head">תבניות לא<br>תר רספונסיבי</h2>
-                        <h3 class="main-banner__mobile_content-container_price">
-                            לחודש
-                            <span class="main-banner__mobile_content-container_price_number-span">15</span>
-                        </h3>
+                        <div class="main-banner__mobile_content-container_price">
+                            <p class="main-banner__mobile_content-container_price_top">החל מ-</p>
+                            <h3 class="main-banner__mobile_content-container_price_name">לחודש</h3><span>₪</span>
+                            <h2 class="main-banner__mobile_content-container_price_number">15</h2>
+                            
+                        </div>
                         <p class="main-banner__mobile_content-container_bottom">לכל התבניות</p>
                         <img src="./img/mobile/circ-arrow.png" alt="" class="main-banner__mobile_bottom_content-container_icon">
                     </div>    
@@ -400,18 +402,19 @@
                     <div class="footer-white">
                         <div class="footer-white__content-container">
                                 <!-- <div class="footer-white__container-desktop"> -->
-                                    <ul class="footer-white__img-list">
-                                        <div class="footer-white__img-list_container-bottom">
-                                            <li class="pay"><a ><img src="./img/footer/pay.png" alt=""></a></li>
+                                    <div class="footer-white__img-list">
+
+                                        <div class="footer-white__img-list_container-bottom" id="bottom">
+                                            <div class="pay"><a ><img src="./img/footer/pay.png" alt=""></a></div>
                                         </div>
-                                        <div class="footer-white__img-list_container-left">
-                                            <li class="rapid-ssl"><a ><img src="./img/footer/rapid-ssl.png" alt=""></a></li>
-                                            <li class="psi"><a ><img src="./img/footer/psi.png" alt=""></a></li>
+                                        <div class="footer-white__img-list_container-left" id="topleft">
+                                            <div class="rapid-ssl"><a ><img src="./img/footer/rapid-ssl.png" alt=""></a></div>
+                                            <div class="psi"><a ><img src="./img/footer/psi.png" alt=""></a></div>
                                         </div>
-                                        <div class="footer-white__img-list_container-right">
-                                            <li class="registrars"><a ><img src="./img/footer/registrars.png" alt=""></a></li>
+                                        <div class="footer-white__img-list_container-right" id="topright">
+                                            <div class="registrars"><a ><img src="./img/footer/registrars.png" alt=""></a></div>
                                         </div>
-                                    </ul>
+                                    </div>
                                 <!-- </div> -->
 
                                 <div class="footer-white__container-mobile">

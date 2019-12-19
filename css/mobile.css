@@ -1,3 +1,16 @@
+@media only screen and (min-device-width : 720px) {
+    .mobile-container__dropdown-links_container{
+        display: none;
+    }
+    
+    .mobile-button{
+        display: none;
+    }    
+
+    
+
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 720px) {
 
     .wrapper{
@@ -112,21 +125,31 @@
     }
 
     .main-banner__mobile_content-container_price{
+        position: relative;
+    }
+
+    .main-banner__mobile_content-container_price_top{
+        color: rgb(255, 255, 255);    
+    }
+    
+    .main-banner__mobile_content-container_price_name{
+        float: left;
         margin: 50px 0 0 0 ;
-        text-align: center;
+        text-align: right;
         font-size: 18pt;
         color: rgb(255, 255, 255);
+        width:50%;
     }
 
-    .main-banner__mobile_content-container_price_number-span {
+    .main-banner__mobile_content-container_price_number {
+        float: left;
+        text-align: left;
         font-size: 50pt;
         color: rgb(255, 255, 255);
+        width:50%;
     }
 
-    /* .main-banner__mobile_content-container_price_number-span::before{
-
-    } */
-
+   
 
     .main-banner__mobile_content-container_bottom{
         margin-top:27px;
@@ -322,7 +345,6 @@
     }
 
     /* Foooter white */
-    
 
     .footer-white{
         height:335px;
@@ -357,13 +379,14 @@
     .footer-white__img-list_container-right{
         width:130px;
         height:150px;
-        float: right;
+        float: left;
         margin: 10px 10px 0 10px;
     }
 
 
     .footer-white__img-list_container-bottom{
         width: 100%;
+        float: left;
         text-align: center;
         margin-bottom:40px;
     }
