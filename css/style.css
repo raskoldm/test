@@ -686,11 +686,15 @@ header{
     position: relative;
     margin-bottom:50px;
     padding: 30px 50px 0 50px;
-    
+    display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction:row; 
 }
 
-.footer-white__img-list_container-bottom{
-  display: inline-block;   
+.footer-white__img-list_container-bottom li{
+    margin-top: 40px; 
 }
 
 .footer-white__img-list_container-left{
