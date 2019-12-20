@@ -127,29 +127,31 @@
     }
 
     .main-banner__mobile_content-container_price{
-        margin-top:20px;
+        margin-top:15 px;
         position: relative;
         height: 100px;
     }
 
     .main-banner__mobile_content-container_price_top{
-        font-size: 18pt;
-        margin-left: 80px;
-        font-weight: bold;
+        font-size: 22pt;
+        margin-left: 95px;
+        font-weight: 100;
         color: rgb(255, 255, 255);   
     }
     
     .main-banner__mobile_content-container_price_name{
         float: left;
-        margin: 50px 0 0 0 ;
+        margin: 40px 0 0 0 ;
         text-align: right;
-        font-size: 18pt;
+        font-size: 22pt;
+        font-weight: 100;
         color: rgb(255, 255, 255);
         width:50%;
     }
 
     .main-banner__mobile_content-container_price_name span{
         margin-left:10px;
+        padding-top: 9px;
         float: right;
         font-size: 12pt;
         color: rgb(255, 255, 255); 
@@ -158,7 +160,8 @@
     .main-banner__mobile_content-container_price_number {
         float: left;
         text-align: left;
-        font-size: 60pt;
+        font-size: 70pt;
+        line-height: 75px;
         font-family: 'Nunito', sans-serif;
         font-weight: 200;
         color: rgb(255, 255, 255);
@@ -282,7 +285,7 @@
         font-size: 14pt;
     }
 
-    .footer-green__mobile-container_list i{
+    .footer-green__mobile-container_list img{
         text-align: center;
         color:white;
         font-size:25pt;
@@ -323,22 +326,25 @@
         width:100%;
     }
 
-    .footer-dark__list_search_icon-list :last-child{
-        width: 32px;
-    }
-
     .footer-dark__list_search_icon-list li{
         display: inline-block;
-        width: 45px;
-        margin-right: 28px;
+        width: 35px;
+        margin-right: 35px;
+    }
+
+    .facebook img {
+        width:25px;
+        height:47px;
     }
 
     
 
     .footer-dark__list_search_icon-list li img{
-        display: inline-block;
-        width: 45px;
+       
+        width: 100%;
     }
+
+    
 
    
     .footer-dark__list_input-container{
@@ -400,6 +406,11 @@
 
 
     .footer-white__img-list_container-left{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction:column;
         width:130px;
         height: 150px;
         float: left;
@@ -419,7 +430,8 @@
         width: 100%;
         float: right;
         text-align: center;
-        margin-bottom:40px;
+        padding-top: 20px;
+        margin-bottom:20px;
     }
 
     .footer-white__img-list_container-bottom li{
@@ -436,19 +448,20 @@
         
     }
 
-    /* .psi {
-        
-    } */
+    .psi {
+        order: 1;
+    } 
 
     .psi img{
         margin-top:20px;
         width:102px;
+
         
     }
 
-    /* .rapid-ssl{
-        
-    } */
+    .rapid-ssl{
+        order: 2;
+    }
 
 
     .rapid-ssl img{
