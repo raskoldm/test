@@ -16,6 +16,8 @@
     .wrapper{
         min-width: 320px;
     }
+
+    /* ==================Header================= */
     
     header{
         height: 76px;
@@ -156,7 +158,9 @@
     .main-banner__mobile_content-container_price_number {
         float: left;
         text-align: left;
-        font-size: 50pt;
+        font-size: 60pt;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 200;
         color: rgb(255, 255, 255);
         width:50%;
     }
@@ -201,7 +205,7 @@
     .user-sites__header h3{
         width:280px;
         line-height: 16pt;
-        font-size:14pt;
+        font-size:12pt;
     }
 
 
@@ -238,6 +242,9 @@
 
 
     /* -----------------------Footer---------------------------- */
+    .footer{
+        margin-top:-40px;
+    }
 
     .footer-top{
         display: none;
@@ -290,7 +297,7 @@
 
     .footer-dark__mobile{
         display:block;
-        height:393px;
+        height:497px;
         
         background-color:#43464a;
         /* padding:0 20px; */
