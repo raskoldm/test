@@ -415,9 +415,13 @@
         margin-bottom:40px;
     }
 
-    .registrars {
-        
+    .footer-white__img-list_container-bottom li{
+        margin-top:0;
     }
+
+    /* .registrars {
+        
+    } */
    
     .registrars img{
         width:102px;
@@ -425,9 +429,9 @@
         
     }
 
-    .psi {
+    /* .psi {
         
-    }
+    } */
 
     .psi img{
         margin-top:20px;
@@ -435,9 +439,9 @@
         
     }
 
-    .rapid-ssl{
+    /* .rapid-ssl{
         
-    }
+    } */
 
 
     .rapid-ssl img{
